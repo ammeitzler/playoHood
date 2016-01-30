@@ -64,9 +64,11 @@ function showArrays(event) {
   // MVCArray of LatLngs.
   var vertices = this.getPath();
 
-  var contentString = '<b>Flatiron District </b><br>' +
-      'Clicked location: <br>' + event.latLng.lat() + ',' + event.latLng.lng() +
-      '<br>';
+  // var contentString = '<b>Flatiron District </b><br>' +
+  //     'Clicked location: <br>' + event.latLng.lat() + ',' + event.latLng.lng() +
+  //     '<br>';
+
+  var contentString = "<iframe src='https://embed.spotify.com/?uri=spotify:user:spotifycommunity:playlist:6JZYbH5F02DSJcJkkvKAPw' frameborder='0' allowtransparency='true' width='300' height='315'></iframe>"
 
   // Iterate over the vertices.
   // for (var i =0; i < vertices.getLength(); i++) {
