@@ -1,18 +1,21 @@
-<!DOCTYPE html>
-<html lang="en">
+<!doctype html>
+<html>
 <head>
-  <meta charset="UTF-8">
-  <title>MY APP</title>
-  <script src="test.js"></script>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<title>Playo Hood</title>
 </head>
-<body>
-  May Node and Express be with you.   
+<body class="container">
+	<h1>Playo Hood</h1>
+	<div id="map"></div>
 
- <form action="/quotes" method="POST">
-  <input type="text" placeholder="name" name="name">
-  <input type="text" placeholder="quote" name="quote">
-  <button type="submit">Submit</button>
-</form>
 
-</body>
+
+
+
+
+<script async defer
+      src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDpgl1AJk-QtgrR258MDXZ34zxakq69Ceg&callback=initMap">
+    </script>
+<script src="test.js"></script>
+</body> <!--end of container--> 
 </html>
