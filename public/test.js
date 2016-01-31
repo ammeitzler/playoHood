@@ -177,3 +177,5 @@ document.addEventListener("DOMContentLoaded", function() {
 //   do_something(position.coords.latitude, position.coords.longitude);
 // });
 
+
+
